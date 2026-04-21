@@ -1,0 +1,83 @@
+/* FONT & GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    color: #00ff9f;
+    background-color: black;
+}
+
+/* VIDEO BACKGROUND */
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* OVERLAY */
+.overlay {
+    height: 100vh; /* full tinggi layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* BACKGROUND IMAGE */
+.bg-image1 {
+    background: url('video&picture/ss_f63d734c175117454794c09a01f3d753e0af60a3.1920x1080.webp') no-repeat center center/cover;
+}
+
+.bg-image2 {
+    background: url('video&picture/need-for-speed-unbound-multiplayer.jpg') no-repeat center center/cover;
+}
+/* BOX FORM */
+.box {
+    margin-top: 60px;
+    max-width: 600px;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border: 2px solid #00ff9f;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00ff9f;
+}
+
+/* TITLE */
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 0 0 10px #00ff9f;
+}
+
+/* INPUT */
+.form-control, .form-select {
+    background: #111;
+    border: 1px solid #00ff9f;
+    color: #00ff9f;
+    margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn-neon {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00ff9f;
+    color: #00ff9f;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-neon:hover {
+    background: #00ff9f;
+    color: black;
+    box-shadow: 0 0 15px #00ff9f;
+}
+
+/* LINK */
+a {
+    color: #00ff9f;
+}
